@@ -5,6 +5,12 @@ ruby '2.7.4'
 
 gem 'faker'
 
+gem 'active_model_serializers', '~> 0.10.2'
+
+gem 'jwt', '~> 2.3'
+
+gem 'devise'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 # Use sqlite3 as the database for Active Record
